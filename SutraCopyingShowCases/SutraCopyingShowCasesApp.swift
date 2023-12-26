@@ -9,6 +9,7 @@ import SwiftUI
 
 // TODO: MultiModule＆SwiftUIで構成する
 // TODO: 「The Composable Architecture」を利用した状態管理をする
+// TODO: Prisma & TypescriptでBackendを作成する
 
 // MEMO: Multi-Module化を進めていく上の参考資料
 // ① まっさらな一番最初のXcodeプロジェクトをSwiftPMでマルチモジュール化の準備をする

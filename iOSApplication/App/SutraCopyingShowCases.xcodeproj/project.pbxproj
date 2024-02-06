@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */; };
-		DE24164F2AD0B060009A93B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24164E2AD0B060009A93B5 /* ContentView.swift */; };
 		DE2416512AD0B062009A93B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416502AD0B062009A93B5 /* Assets.xcassets */; };
 		DE2416542AD0B062009A93B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416532AD0B062009A93B5 /* Preview Assets.xcassets */; };
-		DE24165E2AD0B062009A93B5 /* SutraCopyingShowCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24165D2AD0B062009A93B5 /* SutraCopyingShowCasesTests.swift */; };
-		DE2416682AD0B062009A93B5 /* SutraCopyingShowCasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416672AD0B062009A93B5 /* SutraCopyingShowCasesUITests.swift */; };
-		DE24166A2AD0B062009A93B5 /* SutraCopyingShowCasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2416692AD0B062009A93B5 /* SutraCopyingShowCasesUITestsLaunchTests.swift */; };
+		DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FC2B7263E000E45367 /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +33,11 @@
 /* Begin PBXFileReference section */
 		DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SutraCopyingShowCases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutraCopyingShowCasesApp.swift; sourceTree = "<group>"; };
-		DE24164E2AD0B060009A93B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DE2416502AD0B062009A93B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE2416532AD0B062009A93B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DE2416592AD0B062009A93B5 /* SutraCopyingShowCasesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraCopyingShowCasesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE24165D2AD0B062009A93B5 /* SutraCopyingShowCasesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutraCopyingShowCasesTests.swift; sourceTree = "<group>"; };
 		DE2416632AD0B062009A93B5 /* SutraCopyingShowCasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SutraCopyingShowCasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE2416672AD0B062009A93B5 /* SutraCopyingShowCasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutraCopyingShowCasesUITests.swift; sourceTree = "<group>"; };
-		DE2416692AD0B062009A93B5 /* SutraCopyingShowCasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutraCopyingShowCasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE9972FA2B72604C00E45367 /* iOSApplication */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = iOSApplication; path = ..; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +69,10 @@
 		DE2416402AD0B060009A93B5 = {
 			isa = PBXGroup;
 			children = (
+				DE9972FA2B72604C00E45367 /* iOSApplication */,
 				DE24164B2AD0B060009A93B5 /* SutraCopyingShowCases */,
-				DE24165C2AD0B062009A93B5 /* SutraCopyingShowCasesTests */,
-				DE2416662AD0B062009A93B5 /* SutraCopyingShowCasesUITests */,
 				DE24164A2AD0B060009A93B5 /* Products */,
+				DE9972FB2B7263E000E45367 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */,
-				DE24164E2AD0B060009A93B5 /* ContentView.swift */,
 				DE2416502AD0B062009A93B5 /* Assets.xcassets */,
 				DE2416522AD0B062009A93B5 /* Preview Content */,
 			);
@@ -110,21 +104,11 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DE24165C2AD0B062009A93B5 /* SutraCopyingShowCasesTests */ = {
+		DE9972FB2B7263E000E45367 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE24165D2AD0B062009A93B5 /* SutraCopyingShowCasesTests.swift */,
 			);
-			path = SutraCopyingShowCasesTests;
-			sourceTree = "<group>";
-		};
-		DE2416662AD0B062009A93B5 /* SutraCopyingShowCasesUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DE2416672AD0B062009A93B5 /* SutraCopyingShowCasesUITests.swift */,
-				DE2416692AD0B062009A93B5 /* SutraCopyingShowCasesUITestsLaunchTests.swift */,
-			);
-			path = SutraCopyingShowCasesUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +127,9 @@
 			dependencies = (
 			);
 			name = SutraCopyingShowCases;
+			packageProductDependencies = (
+				DE9972FC2B7263E000E45367 /* AppFeature */,
+			);
 			productName = SutraCopyingShowCases;
 			productReference = DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */;
 			productType = "com.apple.product-type.application";
@@ -257,7 +244,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE24164F2AD0B060009A93B5 /* ContentView.swift in Sources */,
 				DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE24165E2AD0B062009A93B5 /* SutraCopyingShowCasesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +259,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE2416682AD0B062009A93B5 /* SutraCopyingShowCasesUITests.swift in Sources */,
-				DE24166A2AD0B062009A93B5 /* SutraCopyingShowCasesUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +330,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -590,6 +573,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE9972FC2B7263E000E45367 /* AppFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = AppFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE2416412AD0B060009A93B5 /* Project object */;
 }

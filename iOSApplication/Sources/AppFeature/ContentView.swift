@@ -7,8 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
+public struct ContentView: View {
+
+    // MARK: - Initializer
+
+    public init() {}
+
+    // MARK: - Body
+    
+    public var body: some View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
@@ -18,6 +25,8 @@ struct ContentView: View {
         .padding()
     }
 }
+
+// MARK: - Preview
 
 #Preview {
     ContentView()

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AppFeature
 
 // TODO: MultiModule＆SwiftUIで構成する
 // TODO: 「The Composable Architecture」を利用した状態管理をする

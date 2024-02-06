@@ -3,6 +3,8 @@
 
 import PackageDescription
 
+// TODO: Package構成を考える必要がある。
+
 let package = Package(
     name: "iOSApplication",
     platforms: [.iOS(.v17)],

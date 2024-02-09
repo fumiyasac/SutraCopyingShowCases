@@ -10,6 +10,8 @@
 		DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */; };
 		DE2416512AD0B062009A93B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416502AD0B062009A93B5 /* Assets.xcassets */; };
 		DE2416542AD0B062009A93B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416532AD0B062009A93B5 /* Preview Assets.xcassets */; };
+		DE8ACC682B766FE700F7E468 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = DE8ACC672B766FE700F7E468 /* Common */; };
+		DE8ACC6A2B766FEB00F7E468 /* Extension in Frameworks */ = {isa = PBXBuildFile; productRef = DE8ACC692B766FEB00F7E468 /* Extension */; };
 		DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FC2B7263E000E45367 /* AppFeature */; };
 		DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FF2B73D1C400E45367 /* ComposableArchitecture */; };
 /* End PBXBuildFile section */
@@ -48,6 +50,8 @@
 			files = (
 				DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */,
 				DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */,
+				DE8ACC6A2B766FEB00F7E468 /* Extension in Frameworks */,
+				DE8ACC682B766FE700F7E468 /* Common in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +136,8 @@
 			packageProductDependencies = (
 				DE9972FC2B7263E000E45367 /* AppFeature */,
 				DE9972FF2B73D1C400E45367 /* ComposableArchitecture */,
+				DE8ACC672B766FE700F7E468 /* Common */,
+				DE8ACC692B766FEB00F7E468 /* Extension */,
 			);
 			productName = SutraCopyingShowCases;
 			productReference = DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */;
@@ -592,6 +598,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DE8ACC672B766FE700F7E468 /* Common */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Common;
+		};
+		DE8ACC692B766FEB00F7E468 /* Extension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extension;
+		};
 		DE9972FC2B7263E000E45367 /* AppFeature */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppFeature;

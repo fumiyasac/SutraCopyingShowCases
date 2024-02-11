@@ -12,17 +12,22 @@ let package = Package(
         .library(name: "AppFeature", targets: ["AppFeature"]),
         .library(name: "Common", targets: ["Common"]),
         .library(name: "Extension", targets: ["Extension"]),
-//        .library(name: "Infrastructure", targets: ["Infrastructure"]),
+        .library(name: "Infrastructure", targets: ["Infrastructure"]),
 //        .library(name: "Repository", targets: ["Repository"])
     ],
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.7.3"),
+        .package(url: "https://github.com/apollographql/apollo-ios", from: "1.9.0")
     ],
     targets: [
         .target(name: "AppFeature"),
         .target(name: "Common"),
         .target(name: "Extension"),
-//        .target(name: "Infrastructure"),
+        .target(name: "Infrastructure",
+                dependencies: [
+                    .product(name: "Apollo", package: "apollo-ios"),
+                ]
+        ),
 //        .target(name: "Repository")
     ]
 )

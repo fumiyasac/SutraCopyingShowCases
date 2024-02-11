@@ -14,6 +14,8 @@
 		DE8ACC6A2B766FEB00F7E468 /* Extension in Frameworks */ = {isa = PBXBuildFile; productRef = DE8ACC692B766FEB00F7E468 /* Extension */; };
 		DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FC2B7263E000E45367 /* AppFeature */; };
 		DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FF2B73D1C400E45367 /* ComposableArchitecture */; };
+		DEE02C802B7901DE00B2EC63 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DEE02C7F2B7901DE00B2EC63 /* Apollo */; };
+		DEE02C822B79027000B2EC63 /* Infrastructure in Frameworks */ = {isa = PBXBuildFile; productRef = DEE02C812B79027000B2EC63 /* Infrastructure */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEE02C802B7901DE00B2EC63 /* Apollo in Frameworks */,
+				DEE02C822B79027000B2EC63 /* Infrastructure in Frameworks */,
 				DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */,
 				DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */,
 				DE8ACC6A2B766FEB00F7E468 /* Extension in Frameworks */,
@@ -138,6 +142,8 @@
 				DE9972FF2B73D1C400E45367 /* ComposableArchitecture */,
 				DE8ACC672B766FE700F7E468 /* Common */,
 				DE8ACC692B766FEB00F7E468 /* Extension */,
+				DEE02C7F2B7901DE00B2EC63 /* Apollo */,
+				DEE02C812B79027000B2EC63 /* Infrastructure */,
 			);
 			productName = SutraCopyingShowCases;
 			productReference = DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */;
@@ -213,6 +219,7 @@
 			mainGroup = DE2416402AD0B060009A93B5;
 			packageReferences = (
 				DE9972FE2B73D1C400E45367 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = DE24164A2AD0B060009A93B5 /* Products */;
 			projectDirPath = "";
@@ -595,6 +602,14 @@
 				minimumVersion = 1.7.3;
 			};
 		};
+		DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -614,6 +629,15 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE9972FE2B73D1C400E45367 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		DEE02C7F2B7901DE00B2EC63 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		DEE02C812B79027000B2EC63 /* Infrastructure */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Infrastructure;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

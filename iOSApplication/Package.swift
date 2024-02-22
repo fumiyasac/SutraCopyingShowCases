@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(name: "AppFeature", targets: ["AppFeature"]),
         .library(name: "Common", targets: ["Common"]),
-        .library(name: "Extension", targets: ["Extension"]),
+        .library(name: "Extensions", targets: ["Extensions"]),
         .library(name: "Infrastructure", targets: ["Infrastructure"]),
 //        .library(name: "Repository", targets: ["Repository"])
     ],
@@ -22,7 +22,7 @@ let package = Package(
     targets: [
         .target(name: "AppFeature"),
         .target(name: "Common"),
-        .target(name: "Extension"),
+        .target(name: "Extensions"),
         .target(name: "Infrastructure",
                 dependencies: [
                     .product(name: "Apollo", package: "apollo-ios"),

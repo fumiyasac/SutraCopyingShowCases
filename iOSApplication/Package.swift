@@ -13,7 +13,7 @@ let package = Package(
         .library(name: "Common", targets: ["Common"]),
         .library(name: "Extensions", targets: ["Extensions"]),
         .library(name: "Infrastructure", targets: ["Infrastructure"]),
-//        .library(name: "Repository", targets: ["Repository"])
+//        .library(name: "Domain", targets: ["Domain"])
     ],
     dependencies: [
         .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.7.3"),
@@ -29,6 +29,6 @@ let package = Package(
                     .product(name: "Apollo", package: "apollo-ios"),
                 ]
         ),
-//        .target(name: "Repository")
+//        .target(name: "Domain")
     ]
 )

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DE1A75E82B878F4F00912224 /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = DE1A75E72B878F4F00912224 /* Extensions */; };
+		DE1A75FF2B960CB100912224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A75FE2B960CB100912224 /* AppDelegate.swift */; };
 		DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */; };
 		DE2416512AD0B062009A93B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416502AD0B062009A93B5 /* Assets.xcassets */; };
 		DE2416542AD0B062009A93B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416532AD0B062009A93B5 /* Preview Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE1A75FE2B960CB100912224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SutraCopyingShowCases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SutraCopyingShowCasesApp.swift; sourceTree = "<group>"; };
 		DE2416502AD0B062009A93B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 		DE24164B2AD0B060009A93B5 /* SutraCopyingShowCases */ = {
 			isa = PBXGroup;
 			children = (
+				DE1A75FE2B960CB100912224 /* AppDelegate.swift */,
 				DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */,
 				DE2416502AD0B062009A93B5 /* Assets.xcassets */,
 				DE2416522AD0B062009A93B5 /* Preview Content */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1A75FF2B960CB100912224 /* AppDelegate.swift in Sources */,
 				DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,6 +25,12 @@ import AppFeature
 
 @main
 struct SutraCopyingShowCasesApp: App {
+    
+    // MEMO: AppDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
+    // MARK: - Body
+
     var body: some Scene {
         WindowGroup {
             ContentView()

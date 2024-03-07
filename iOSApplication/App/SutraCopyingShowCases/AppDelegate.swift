@@ -5,7 +5,7 @@
 //  Created by 酒井文也 on 2024/03/04.
 //
 
-import Extension
+import Extensions
 import Foundation
 import UIKit
 

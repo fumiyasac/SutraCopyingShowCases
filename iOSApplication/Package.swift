@@ -16,8 +16,8 @@ let package = Package(
 //        .library(name: "Domain", targets: ["Domain"])
     ],
     dependencies: [
-        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.7.3"),
-        .package(url: "https://github.com/apollographql/apollo-ios", from: "1.9.0"),
+        .package(url: "https://github.com/pointfreeco/swift-composable-architecture", from: "1.8.2"),
+        .package(url: "https://github.com/apollographql/apollo-ios", from: "1.9.1"),
         .package(url: "https://github.com/SDWebImage/SDWebImage", from: "5.19.0"),
     ],
     targets: [

@@ -7,16 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE1A75E82B878F4F00912224 /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = DE1A75E72B878F4F00912224 /* Extensions */; };
 		DE1A75FF2B960CB100912224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1A75FE2B960CB100912224 /* AppDelegate.swift */; };
 		DE24164D2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE24164C2AD0B060009A93B5 /* SutraCopyingShowCasesApp.swift */; };
 		DE2416512AD0B062009A93B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416502AD0B062009A93B5 /* Assets.xcassets */; };
 		DE2416542AD0B062009A93B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE2416532AD0B062009A93B5 /* Preview Assets.xcassets */; };
-		DE8ACC682B766FE700F7E468 /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = DE8ACC672B766FE700F7E468 /* Common */; };
-		DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FC2B7263E000E45367 /* AppFeature */; };
-		DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE9972FF2B73D1C400E45367 /* ComposableArchitecture */; };
-		DEE02C802B7901DE00B2EC63 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DEE02C7F2B7901DE00B2EC63 /* Apollo */; };
-		DEE02C822B79027000B2EC63 /* Infrastructure in Frameworks */ = {isa = PBXBuildFile; productRef = DEE02C812B79027000B2EC63 /* Infrastructure */; };
+		DE71A1AB2D9FE27400F313DD /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DE71A1AA2D9FE27400F313DD /* AppFeature */; };
+		DE71A1AD2D9FE27800F313DD /* Common in Frameworks */ = {isa = PBXBuildFile; productRef = DE71A1AC2D9FE27800F313DD /* Common */; };
+		DE71A1AF2D9FE27C00F313DD /* Extensions in Frameworks */ = {isa = PBXBuildFile; productRef = DE71A1AE2D9FE27C00F313DD /* Extensions */; };
+		DE71A1B12D9FE28000F313DD /* Infrastructure in Frameworks */ = {isa = PBXBuildFile; productRef = DE71A1B02D9FE28000F313DD /* Infrastructure */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,12 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1A75E82B878F4F00912224 /* Extensions in Frameworks */,
-				DEE02C802B7901DE00B2EC63 /* Apollo in Frameworks */,
-				DEE02C822B79027000B2EC63 /* Infrastructure in Frameworks */,
-				DE9973002B73D1C400E45367 /* ComposableArchitecture in Frameworks */,
-				DE9972FD2B7263E000E45367 /* AppFeature in Frameworks */,
-				DE8ACC682B766FE700F7E468 /* Common in Frameworks */,
+				DE71A1AF2D9FE27C00F313DD /* Extensions in Frameworks */,
+				DE71A1AB2D9FE27400F313DD /* AppFeature in Frameworks */,
+				DE71A1AD2D9FE27800F313DD /* Common in Frameworks */,
+				DE71A1B12D9FE28000F313DD /* Infrastructure in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,12 +137,10 @@
 			);
 			name = SutraCopyingShowCases;
 			packageProductDependencies = (
-				DE9972FC2B7263E000E45367 /* AppFeature */,
-				DE9972FF2B73D1C400E45367 /* ComposableArchitecture */,
-				DE8ACC672B766FE700F7E468 /* Common */,
-				DEE02C7F2B7901DE00B2EC63 /* Apollo */,
-				DEE02C812B79027000B2EC63 /* Infrastructure */,
-				DE1A75E72B878F4F00912224 /* Extensions */,
+				DE71A1AA2D9FE27400F313DD /* AppFeature */,
+				DE71A1AC2D9FE27800F313DD /* Common */,
+				DE71A1AE2D9FE27C00F313DD /* Extensions */,
+				DE71A1B02D9FE28000F313DD /* Infrastructure */,
 			);
 			productName = SutraCopyingShowCases;
 			productReference = DE2416492AD0B060009A93B5 /* SutraCopyingShowCases.app */;
@@ -221,9 +215,6 @@
 			);
 			mainGroup = DE2416402AD0B060009A93B5;
 			packageReferences = (
-				DE9972FE2B73D1C400E45367 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-				DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */,
-				DE1A75F02B8CD9B800912224 /* XCRemoteSwiftPackageReference "SDWebImage" */,
 			);
 			productRefGroup = DE24164A2AD0B060009A93B5 /* Products */;
 			projectDirPath = "";
@@ -596,57 +587,20 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		DE1A75F02B8CD9B800912224 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.19.0;
-			};
-		};
-		DE9972FE2B73D1C400E45367 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.7.3;
-			};
-		};
-		DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.9.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
 /* Begin XCSwiftPackageProductDependency section */
-		DE1A75E72B878F4F00912224 /* Extensions */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Extensions;
-		};
-		DE8ACC672B766FE700F7E468 /* Common */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Common;
-		};
-		DE9972FC2B7263E000E45367 /* AppFeature */ = {
+		DE71A1AA2D9FE27400F313DD /* AppFeature */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = AppFeature;
 		};
-		DE9972FF2B73D1C400E45367 /* ComposableArchitecture */ = {
+		DE71A1AC2D9FE27800F313DD /* Common */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE9972FE2B73D1C400E45367 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
+			productName = Common;
 		};
-		DEE02C7F2B7901DE00B2EC63 /* Apollo */ = {
+		DE71A1AE2D9FE27C00F313DD /* Extensions */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DEE02C7E2B7901DE00B2EC63 /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = Apollo;
+			productName = Extensions;
 		};
-		DEE02C812B79027000B2EC63 /* Infrastructure */ = {
+		DE71A1B02D9FE28000F313DD /* Infrastructure */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Infrastructure;
 		};
